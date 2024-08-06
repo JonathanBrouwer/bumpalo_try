@@ -1,0 +1,12 @@
+[package]
+name = "bumpalo_try"
+version = "0.1.0"
+authors = ["Jonathan Brouwer <jonathantbrouwer@gmail.com>"]
+description = "Allocates a fallible iterator into a bumpalo."
+keywords = ["bumpalo", "memory-management", "rust-patterns"]
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/JonathanBrouwer/bumpalo_try"
+
+[dependencies]
+bumpalo = "3.16.0"
